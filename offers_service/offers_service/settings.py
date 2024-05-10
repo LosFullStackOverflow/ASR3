@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base',
+    'social_django',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,13 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_URL = "/login/auth0" 
+LOGIN_REDIRECT_URL = "/" 
+LOGOUT_REDIRECT_URL = "https://fulstak-confi.us.auth0.com/v2/logout?returnTo=http%3A%2F%2F:8080" 
+SOCIAL_AUTH_TRAILING_SLASH = False # Remove end slash from routes 
+SOCIAL_AUTH_AUTH0_DOMAIN = 'fulstak-confi.us.auth0.com' 
+SOCIAL_AUTH_AUTH0_KEY = 'j6TEoXis753u5gfeMBVdjTZnthAf2YqF' 
+SOCIAL_AUTH_AUTH0_SECRET = '8gtyNRe-y5Xcu8oyZEXa97ZInJMLrnOHhRMrp6ZymC5hi0P3Zl8Nde8BzuMVyHL7' 
+SOCIAL_AUTH_AUTH0_SCOPE = [ 'openid', 'profile','email','role', ] 
+AUTHENTICATION_BACKENDS = { 'offers_service.auth0backend.Auth0', 'django.contrib.auth.backends.ModelBackend',}
