@@ -1,11 +1,11 @@
-#ACTA DE REUNION
+ACTA DE REUNION
 
-##Objetivos
+Objetivos
 
 1.	Redacción del acta en la Wiki del grupo
 2.	Ajustes de ASRs y tareas en la herramienta de planeación
 
-##Entregables
+Entregables
 
 •	Actualización de los modelos de arquitectura
 •	Actualización de los ASRs en la herramienta de planeación
@@ -16,11 +16,11 @@
 •	Reflexión sobre cómo la introducción de tácticas y patrones en este Sprint impactaron positiva o negativamente los atributos de calidad del Sprint anterior
 •	Los puntos 4, 6 y 7 deben deben quedar consignados en la Wiki del repositorio.
 
-##Especificación del ASR de integridad
+Especificación del ASR de integridad
 
 “Como arquitecto de software, debo garantizar que, cuando un usuario ingrese a la aplicación y el sistema esté operando con normalidad, los usuarios no autorizados no puedan modificar datos de usuarios. Este requisito debe cumplirse el 99.99% de las veces."
 
-##Especificación del ASR de confidencialidad
+Especificación del ASR de confidencialidad
 
 "Como arquitecto de software, debo garantizar que, cuando un usuario ingrese a la aplicación y el sistema esté operando con normalidad, los usuarios no autorizados no puedan acceder a la información sensible de otros usuarios. Este requisito debe cumplirse el 99.99% de las veces."
 
@@ -37,9 +37,9 @@
 •	Actualizar la Wiki para reflejar el diseño e implementación del experimento del ASR de confidencialidad.
 
 
-#Actas de reunión de equipo (seguimiento y retrospectiva)
+Actas de reunión de equipo (seguimiento y retrospectiva)
 
-##Seguimiento
+Seguimiento
 
 Los miembros del equipo han completado todas las actividades asignadas durante el Sprint. Aquí están los detalles:
 
@@ -53,14 +53,11 @@ Los miembros del equipo han completado todas las actividades asignadas durante e
 | Esteban Castelblanco| 1                               | 1                                 | Asegurarse de actualizar la documentación |
 
 
-###Seguimiento grupal
+Seguimiento grupal
 
 1.	¿Cuál es el porcentaje de tareas completadas y SIN completar?
 
 Se observa que el 100% de las tareas han sido completadas. Sin embargo, para continuar mejorando, cada miembro del equipo ha definido al menos una acción de mejora:
-
-
-
 
 
 Con base en la tabla y la respuesta a la pregunta, el grupo identifica las dificultades que tiene y en la columna de “Comentarios y compromisos” cada uno define al menos una acción de mejora (concreta) para la próxima semana.
@@ -73,12 +70,11 @@ Con base en la tabla y la respuesta a la pregunta, el grupo identifica las dific
 | Marco Ramírez       | Facilitar talleres de resolución de problemas para mejorar la colaboración en problemas técnicos. |
 | Esteban Castelblanco| Implementar un sistema de gestión de conocimiento para mejorar y centralizar la actualización de la documentación. |
 
-###Planeación de lo que falta del Sprint
+Planeación de lo que falta del Sprint
 
 Asegurar que cada ASR asignado tiene tareas claras, responsables definidos y una fecha de terminación adecuada es crucial. Utilizando azure para visualizar y gestionar estas tareas de manera eficiente.
 
-
-## Retrospectiva de Sprint – Método de la Estrella de Mar
+Retrospectiva de Sprint – Método de la Estrella de Mar
 
 | Categoría             | Acciones                                        |
 |-----------------------|-------------------------------------------------|
@@ -90,7 +86,7 @@ Asegurar que cada ASR asignado tiene tareas claras, responsables definidos y una
 
 
 
-###Comparen las retrospectivas de Sprint 2 y Sprint 3 y respondan las siguientes preguntas:
+Comparen las retrospectivas de Sprint 2 y Sprint 3 y respondan las siguientes preguntas:
 
 · ¿Cuáles son las similitudes y diferencias entre las dos retrospectivas?
 
@@ -107,19 +103,28 @@ Las diferencias reflejan mejoras en la dinámica del equipo, mostrando un enfoqu
 
 A partir de lo que colocaron en los ejes de la estrella de Sprint 3 (excepto el eje “Seguir haciendo”), cada integrante debe derivar acciones concretas para este Sprint y colocarlas en la siguiente tabla
 
-#FALTA TABLA 
+## Acciones Concretas para el Próximo Sprint
 
-##Diseño y planeación Sprint 4
+| Nombre               | Acciones Concretas |
+|----------------------|--------------------|
+| **Alejandro Pulido** | Comenzar a usar herramientas avanzadas de gestión de proyectos para una mejor visibilidad de las tareas. |
+| **Johan Bautista**   | Incrementar el uso de sesiones de feedback continuo para mejorar la calidad de las pruebas. Organizar sesiones de capacitación para el equipo sobre mejores prácticas en pruebas de software. |
+| **Nicolas Casas**    | Establecer y liderar reuniones diarias para asegurar la comunicación efectiva y la asignación de recursos. Reducir la sobrecarga asignando tareas más equitativamente. |
+| **Marco Ramírez**    | Utilizar más Azure para monitorizar el progreso y gestionar las cargas de trabajo del equipo. Implementar tácticas para gestionar mejor el tiempo dedicado a reuniones y decisiones críticas. |
+| **Esteban Castelblanco** | Implementar sesiones de revisión rápida al final de cada semana para evaluar la documentación y el progreso de las tareas. Dejar de ignorar solicitudes de ayuda de compañeros para mejorar el soporte en el equipo. |
 
-###ASR de Escalabilidad: 
+
+Diseño y planeación Sprint 4
+
+ASR de Escalabilidad: 
 
 "Como arquitecto de software, debo garantizar que el sistema pueda escalar de forma efectiva y eficiente para manejar un aumento en la demanda de usuarios durante los períodos pico, manteniendo un tiempo de respuesta consistente sin degradar la calidad del servicio."
 
-###ASR de Disponibilidad: 
+ASR de Disponibilidad: 
 
 "Como arquitecto de software, debo asegurar que el sistema esté disponible y operativo el 99.99% del tiempo, minimizando el tiempo de inactividad y asegurando un acceso constante para los usuarios a los servicios críticos."
 
-###Selección de bases de datos y tecnologías para microservicios
+Selección de bases de datos y tecnologías para microservicios
 
 Bases de datos:
 
@@ -136,7 +141,7 @@ Kubernetes:
 
 Sistema de orquestación de contenedores que permite la gestión automatizada, escalabilidad y descubrimiento de servicios, fundamental para mantener la operatividad y eficiencia en la gestión de múltiples microservicios.
 
-###Planificación de tareas para los ASRs
+Planificación de tareas para los ASRs
 
 Tareas para ASR de Escalabilidad:
 
@@ -150,4 +155,3 @@ Tareas para ASR de Disponibilidad:
 2.	Establecer políticas de respaldo y recuperación ante desastres para garantizar la continuidad del negocio.
 3.	Implementar monitorización y alertas para detectar y responder rápidamente a los fallos que puedan afectar la disponibilidad del sistema.
 
-![image](https://github.com/LosFullStackOverflow/ASR3/assets/111070716/55d0aafe-faee-4ac3-821f-1ecdf1e68485)
