@@ -26,15 +26,37 @@ Especificación del ASR de confidencialidad
 
 •	Diseño de arquitectura (plasmado al menos en una vista funcional y de despliegue) para direccionar los ASRs de confidencialidad e integridad
 
-•	Diseño e implementación del experimento del ASR de integridad
+1. Configuración Inicial:
+Autenticación y Gestión de Usuarios con Auth0:
+Utilizaremos Auth0 para manejar la autenticación y la autorización de los usuarios. Este servicio proporciona mecanismos robustos para garantizar que solamente los usuarios autenticados y autorizados puedan acceder y modificar sus propios datos, alineándose con los ASR de confidencialidad e integridad.
+2. Diseño de la Arquitectura de Microservicios:
+Microservicio de Gestión de Usuarios (Django):
+Este microservicio será responsable del login y la modificación de datos de usuario. Operará como el punto de contacto inicial para los usuarios que deseen acceder a sus datos o actualizarlos, utilizando Auth0 para verificar la identidad y los permisos del usuario.
 
-•	Diseño e implementación del experimento del ASR de confidencialidad
+Microservicio de API REST (Django):
+Un segundo microservicio Django actuará como una API REST que manejará específicamente las solicitudes de cambio de datos. Este servicio verificará que la solicitud de cambio provenga del mismo usuario cuyos datos están siendo modificados, cumpliendo con el ASR de integridad.
+
+3. Comunicación entre Microservicios:
+Seguridad en la Comunicación:
+La comunicación entre los microservicios se realizará a través de llamadas a la IP pública del microservicio de API REST. Se asegurará que la comunicación sea segura implementando protocolos como HTTPS para cifrar los datos en tránsito.
+4. Experimento de Implementación:
+Configuración del Entorno:
+Preparar dos entornos de desarrollo local para cada microservicio Django. Aunque inicialmente no se utilizará Docker, es crucial asegurarse de que cada microservicio pueda ejecutarse de manera aislada y comunicarse eficazmente.
+
+Desarrollo y Pruebas:
+Desarrollar las funciones de login y cambio de datos en el microservicio de gestión de usuarios. Implementar la lógica de autorización en el microservicio de API REST para procesar las solicitudes de cambio de datos. Realizar pruebas para verificar que los controles de acceso y las operaciones de modificación de datos funcionen conforme a los requisitos de confidencialidad e integridad.
+
+5. Documentación y Actualización de la Wiki:
+Documentación del Diseño y los Experimentos:
+Documentar detalladamente cada paso del diseño, la configuración y la implementación de los microservicios en la Wiki del proyecto. Incluir diagramas de arquitectura, descripciones de los flujos de datos y ejemplos de código.
+
+Resultados y Análisis:
+Registrar los resultados de las pruebas y cualquier análisis relevante que demuestre cómo se cumplen los ASR de confidencialidad e integridad.
 
 
-•	Actualizar la Wiki para reflejar el diseño e implementación del experimento del ASR de integridad.
+•	Diseño e implementación del experimento del ASR de integridad y del ASR de confidencialidad
 
-
-•	Actualizar la Wiki para reflejar el diseño e implementación del experimento del ASR de confidencialidad.
+•	Actualizar la Wiki para reflejar el diseño e implementación del experimento del ASR de integridad y el ASR de confidencialidad.
 
 
 Actas de reunión de equipo (seguimiento y retrospectiva)
