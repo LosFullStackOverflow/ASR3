@@ -1,11 +1,11 @@
-ACTA DE REUNION
+#ACTA DE REUNION
 
-Objetivos
+##Objetivos
 
 1.	Redacción del acta en la Wiki del grupo
 2.	Ajustes de ASRs y tareas en la herramienta de planeación
 
-Entregables
+##Entregables
 
 •	Actualización de los modelos de arquitectura
 •	Actualización de los ASRs en la herramienta de planeación
@@ -16,11 +16,11 @@ Entregables
 •	Reflexión sobre cómo la introducción de tácticas y patrones en este Sprint impactaron positiva o negativamente los atributos de calidad del Sprint anterior
 •	Los puntos 4, 6 y 7 deben deben quedar consignados en la Wiki del repositorio.
 
-Especificación del ASR de integridad
+##Especificación del ASR de integridad
 
 “Como arquitecto de software, debo garantizar que, cuando un usuario ingrese a la aplicación y el sistema esté operando con normalidad, los usuarios no autorizados no puedan modificar datos de usuarios. Este requisito debe cumplirse el 99.99% de las veces."
 
-Especificación del ASR de confidencialidad
+##Especificación del ASR de confidencialidad
 
 "Como arquitecto de software, debo garantizar que, cuando un usuario ingrese a la aplicación y el sistema esté operando con normalidad, los usuarios no autorizados no puedan acceder a la información sensible de otros usuarios. Este requisito debe cumplirse el 99.99% de las veces."
 
@@ -37,23 +37,23 @@ Especificación del ASR de confidencialidad
 •	Actualizar la Wiki para reflejar el diseño e implementación del experimento del ASR de confidencialidad.
 
 
-Actas de reunión de equipo (seguimiento y retrospectiva)
+#Actas de reunión de equipo (seguimiento y retrospectiva)
 
-Seguimiento
+##Seguimiento
 
 Los miembros del equipo han completado todas las actividades asignadas durante el Sprint. Aquí están los detalles:
 
-Nombre
-integrante
-	Número de actividades asignadas	Número de actividades completadas	Comentarios y compromisos
-Alejandro Pulido	1	1	Continuar con la eficiencia e implementación de los sprints
 
-Johan Bautista	1	1	Mantener la comunicación constante y la implementación de pruebas
-Nicolas Casas	1	1	Revisar diariamente el progreso del sprint y colaborar en lo que estemos atrasados
-Marco Ramírez	1	1	Colaboración en problemas técnicos.
-Esteban Castelblanco	1	1	Asegurarse de actualizar la documentación.
+| Nombre              | Número de actividades asignadas | Número de actividades completadas | Comentarios y compromisos |
+|---------------------|---------------------------------|-----------------------------------|---------------------------|
+| Alejandro Pulido    | 1                               | 1                                 | Continuar con la eficiencia e implementación de los sprints |
+| Johan Bautista      | 1                               | 1                                 | Mantener la comunicación constante y la implementación de pruebas |
+| Nicolas Casas       | 1                               | 1                                 | Revisar diariamente el progreso del sprint y colaborar en lo que estemos atrasados |
+| Marco Ramírez       | 1                               | 1                                 | Colaboración en problemas técnicos |
+| Esteban Castelblanco| 1                               | 1                                 | Asegurarse de actualizar la documentación |
 
-Seguimiento grupal
+
+###Seguimiento grupal
 
 1.	¿Cuál es el porcentaje de tareas completadas y SIN completar?
 
@@ -65,27 +65,32 @@ Se observa que el 100% de las tareas han sido completadas. Sin embargo, para con
 
 Con base en la tabla y la respuesta a la pregunta, el grupo identifica las dificultades que tiene y en la columna de “Comentarios y compromisos” cada uno define al menos una acción de mejora (concreta) para la próxima semana.
 
-Nombre	Acciones de mejora sugeridas
-Alejandro Pulido	Implementar herramientas de gestión de tareas para optimizar y monitorear la eficiencia de los sprints.
-Johan Bautista	Desarrollar talleres de capacitación en pruebas de software para mejorar la implementación de pruebas eficaces.
-Nicolas Casas	Establecer reuniones diarias breves para revisar el avance de los sprints y asignar recursos a tareas atrasadas.
-Marco Ramírez	Facilitar talleres de resolución de problemas para mejorar la colaboración en problemas técnicos.
-Esteban Castelblanco	Implementar un sistema de gestión de conocimiento para mejorar y centralizar la actualización de la documentación.
+| Nombre              | Acciones de mejora sugeridas |
+|---------------------|------------------------------|
+| Alejandro Pulido    | Implementar herramientas de gestión de tareas para optimizar y monitorear la eficiencia de los sprints. |
+| Johan Bautista      | Desarrollar talleres de capacitación en pruebas de software para mejorar la implementación de pruebas eficaces. |
+| Nicolas Casas       | Establecer reuniones diarias breves para revisar el avance de los sprints y asignar recursos a tareas atrasadas. |
+| Marco Ramírez       | Facilitar talleres de resolución de problemas para mejorar la colaboración en problemas técnicos. |
+| Esteban Castelblanco| Implementar un sistema de gestión de conocimiento para mejorar y centralizar la actualización de la documentación. |
 
-Planeación de lo que falta del Sprint
+###Planeación de lo que falta del Sprint
 
 Asegurar que cada ASR asignado tiene tareas claras, responsables definidos y una fecha de terminación adecuada es crucial. Utilizando azure para visualizar y gestionar estas tareas de manera eficiente.
 
 
-Retrospectiva de Sprint 3 – Método de la estrella de mar
+## Retrospectiva de Sprint – Método de la Estrella de Mar
 
-Comenzar a hacer	Más de	Dejar de hacer	Seguir haciendo	Menos de
-Mejorar la comunicación para la asignación de tareas.	Uso de herramientas que logran los objetivos esperados.	Postergar las actualizaciones del documento.	Revisiones de código.	No solicitar ayuda entre compañeros del grupo
-Utilizar más azure revisar la gestión de tareas de cada integrante	Feedback continuo.	Ignorar las necesidades de capacitación entre integrantes.	Utilizar metodologías ágiles.	Sobrecarga para algunos integrantes.
-Sesiones de revisión rápida al final de cada semana.	Responsabilidad y compromiso en las entregas	Retrasar decisiones críticas.	Retrospectivas efectivas.	Gestionar mejor el tiempo que hay para hacer las entregas
+| Categoría             | Acciones                                        |
+|-----------------------|-------------------------------------------------|
+| **Comenzar a hacer**  | Mejorar la comunicación para la asignación de tareas. <br> Utilizar más Azure para revisar la gestión de tareas de cada integrante. <br> Sesiones de revisión rápida al final de cada semana. |
+| **Más de**            | Uso de herramientas que logran los objetivos esperados. <br> Feedback continuo. <br> Responsabilidad y compromiso en las entregas. |
+| **Dejar de hacer**    | Postergar las actualizaciones del documento. <br> Ignorar las necesidades de capacitación entre integrantes. <br> Retrasar decisiones críticas. |
+| **Seguir haciendo**   | Revisiones de código. <br> Utilizar metodologías ágiles. <br> Retrospectivas efectivas. |
+| **Menos de**          | No solicitar ayuda entre compañeros del grupo. <br> Sobrecarga para algunos integrantes. <br> Gestionar mejor el tiempo que hay para hacer las entregas. |
 
 
-Comparen las retrospectivas de Sprint 2 y Sprint 3 y respondan las siguientes preguntas:
+
+###Comparen las retrospectivas de Sprint 2 y Sprint 3 y respondan las siguientes preguntas:
 
 · ¿Cuáles son las similitudes y diferencias entre las dos retrospectivas?
 
@@ -102,24 +107,19 @@ Las diferencias reflejan mejoras en la dinámica del equipo, mostrando un enfoqu
 
 A partir de lo que colocaron en los ejes de la estrella de Sprint 3 (excepto el eje “Seguir haciendo”), cada integrante debe derivar acciones concretas para este Sprint y colocarlas en la siguiente tabla
 
-Nombre	Acciones concretas
-Alejandro Pulido	Adoptar y promover el uso de una nueva herramienta de gestión de tareas.
-Johan Bautista	Organizar un taller de capacitación en herramientas de colaboración.
-Nicolas Casas	Liderar la implementación de reuniones diarias de sincronización.
-Marco Ramírez	
-Esteban Castelblanco	Desarrollar un checklist para la actualización oportuna de documentos.
+#FALTA TABLA 
 
-Diseño y planeación Sprint 4
+##Diseño y planeación Sprint 4
 
-ASR de Escalabilidad: 
+###ASR de Escalabilidad: 
 
 "Como arquitecto de software, debo garantizar que el sistema pueda escalar de forma efectiva y eficiente para manejar un aumento en la demanda de usuarios durante los períodos pico, manteniendo un tiempo de respuesta consistente sin degradar la calidad del servicio."
 
-ASR de Disponibilidad: 
+###ASR de Disponibilidad: 
 
 "Como arquitecto de software, debo asegurar que el sistema esté disponible y operativo el 99.99% del tiempo, minimizando el tiempo de inactividad y asegurando un acceso constante para los usuarios a los servicios críticos."
 
-Selección de bases de datos y tecnologías para microservicios
+###Selección de bases de datos y tecnologías para microservicios
 
 Bases de datos:
 
@@ -136,7 +136,7 @@ Kubernetes:
 
 Sistema de orquestación de contenedores que permite la gestión automatizada, escalabilidad y descubrimiento de servicios, fundamental para mantener la operatividad y eficiencia en la gestión de múltiples microservicios.
 
-Planificación de tareas para los ASRs
+###Planificación de tareas para los ASRs
 
 Tareas para ASR de Escalabilidad:
 
